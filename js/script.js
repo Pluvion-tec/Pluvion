@@ -13,20 +13,28 @@ function nextImage(){
     document.getElementById("radio" + count).checked = true;
 }
 
+
 const btnTopo = document.getElementById("btnTopo");
 
-window.onscroll = function () {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    btnTopo.style.display = "block";
-  } else {
-    btnTopo.style.display = "none";
-  }               
-};
+  window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      btnTopo.style.display = "block";
+    } else {
+      btnTopo.style.display = "none";
+    }           
+  };
 
-function voltarAoTopo() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-}
+  function voltarAoTopo() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
 
+const menuBtn = document.getElementById('menu-btn');
+const navMenu = document.getElementById('nav-menu');
+
+menuBtn.addEventListener('click', () => {
+  menuBtn.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
