@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pluvion</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">         
+    <div class="logo">
+        <img class="PLUVION" src="./img/logo.png" alt="Pluvion Logo"/>
+    </div>
+
+    <!-- Botão menu hambúrguer -->
+    <div class="menu-btn" id="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="nav-menu" id="nav-menu">
+        <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./html/sobre nós.html">Sobre Nós</a></li>
+            <li><a href="./html/tech.html">Tech</a></li>
+            <li><a href="./html/nossas soluções.html">Nossas Soluções</a></li>
+            <li><a href="./html/pessoas.html">Pessoas</a></li>
+            <li><a href="./html/benefícios.html">Proteja-se</a></li>
+            <li><a href="./html/aplicações.html">Aplicações</a></li>
+        </ul>
+
+        <div class="theme-switcher">
+            <button onclick="setTheme('original')">Original</button>
+            <button onclick="setTheme('light')">Branco</button>
+            <button onclick="setTheme('dark')">Preto</button>
+        </div>
+
+    </nav>
+</header>
+
+
+    <div class="linha"></div>
+
+   <main class="main">
+    <section>
+        <div class="container">
+            <video class="background" src="./videos/mar.mp4" autoplay muted loop>
+                <source src="./videos/mar.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+            <div class="titulo">TECNOLOGIA <br>QUE PROTEGE. <br>SOLUÇÕES <br> QUE SALVAM. </div>
+
+            
+        </div>
+
+        <div class="botao"> 
+                <a href="./html/nossas soluções.html"><strong> SAIBA COMO VOCÊ PODE AJUDAR A SALVAR VIDAS DE ENCHENTE</strong></a>
+            </div>
+        
+        <div class="logos">
+            <img class="facebook" src="./img/facebook.png" alt="logo Facebook">
+            <img class="instagram" src="./img/instagram.png" alt="logo Instagram">
+            <img class="x" src="./img/x.png" alt="logo X">
+        </div>
+          
+        <div class="login">
+            <a href="./html/login.html">Login</a>
+            <img class="usuario" src="./img/usuario.png" alt="logo Usuário">
+        </div>
+    </section>
+
+    <section>
+        <div class="container2">
+            <img class="verde" src="./img/verde.png" alt="Pluvion Verde">
+                <div class="texto"> <strong>CRIE ALERTAS DE ENCHENTE EM TEMPO REAL</strong></div>
+                <img class="nuvem" src="./img/nuvem.png" alt="Nuvem">
+            <img class="celular" src="./img/foto celular.png" alt="mão segurando celular em dia chuvoso">
+            <div class="paragrafo"> <strong>Você já imaginou ajudar a salvar vidas vítimas de enchentes através <br> de alguns cliques ? </strong> <br> <div class="cor">Agora você pode! </div> Viu uma área alagada? <br>Crie um alerta através do nosso site e compartilhe com toda a <br> comunidade pontos que devem ser evitados! <br> De forma simples e descomplicada, você pode ajudar a salvar vidas e <br> ainda contribuir com as autoridades para cessar as enchentes. <br> <strong><div class="cor">Fique ligado e faça parte desse projeto!</div></strong></div>
+            <div class="botao2"> 
+                <a href="./html/tech.html"> <strong> EMITIR UM ALERTA</strong></a>
+            </div>
+            <img class="divisao" src="./img/divisao.png" alt="Divisão">
+
+        </div>
+    </section>
+
+    <section>
+        <div class="faixa2"></div>
+            <div class="textoslideshow"> <strong>INFORMAÇÕES RELAVANTES NA PALMA DA MÃO</strong></div>
+            <div class="textoslideshow2"> Acompanhe de perto o <strong> monitoramento da umidade do ar em sua cidade.</strong> <br><strong>Crie alertas </strong> de alagamentos de onde você estiver. <br> Saiba como se <strong>proteger em casos de enchentes, </strong> ou em áreas de risco.
+            </div>
+            
+
+
+            <div class="slider">
+                <div class="slides">
+                    <!--Radio buttons-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!-- Fim Radio buttons-->
+
+                    <!--Slide images-->
+                    <div class="slide first">
+                        <img src="img/climanovo.png" alt="Clima" >
+                    </div>
+                    <div class="slide">
+                        <img src="img/slide show2.PNG" alt="Alagamento">
+                    </div>
+                    <div class="slide">
+                        <img src="img/slide show3.PNG" alt="Proteção">
+                    </div>
+                    <!--Fim Slide images-->
+
+                    <!--Navigation auto-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+
+                </div>
+
+            </div>
+
+            <div class="faixa"></div>
+            <div class="divisao2">
+                <img src="img/divisao2.png" alt="divisão em ondas brancas">
+            </div>
+    </section>
+
+    <section>
+        <div class="container4">
+            <div class="texto-titulo"><strong>CONHEÇA NOSSA EMPRESA</strong></div>
+            <div class=" texto-sobre-nos">A <strong><span class="cor">PLUVION</span></strong> surgiu para ajudar moradores do <span class="cor">ABC Paulista,</span>oferecendo soluções contra enchentes, alagamentos e riscos causados por chuvas.
+            </div>
+            <img class="Sidyellen" src="img/sidyellen.jpg" alt="Mulher com cabelo cacheado e óculos" >
+            <img class="Luana" src="img/luana luo.jpg" alt="menina com cabelo liso e óculos" >
+            <div class="texto-imagem">O produto desta empresa vai muito além de um benefício, mas procura ajudar a humanidade a enfrentar os desafios da natureza através de soluções tecnológicas.</div>
+            
+        </div>
+
+        <div class=btn1>
+            <a href="./html/login.html"> <strong>QUEM FAZ A PLUVION É VOCÊ, VENHA FAZER PARTE DESSA CAUSA</strong></a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container5">
+            <img class= background-noticias src="img/Rectangle 14.png" alt="background notícias">
+            <div class="texto-noticia"><strong><span class="cor">PRINCIPAIS NOTÍCIAS</span></strong></div>
+            
+                 <div class="blocos1"></div>
+                    <div class="texto1"><strong><span class="cor">ALAGAMENTO NA ESTAÇÃO DE TREM</span></strong></div>
+                    <div class="texto2"><strong><span class="cor">Santo André</span></strong></div>
+                    <div class="texto3">A cidade de Santo André foi <br>fortemente atingida por um temporal <br>que causou alagamentos severos, <br>   especialmente na estação ferroviária <br> da CPTM, que ficou submersa, <br> interrompendo a circulação de trens <br> entre as estações Utinga e Mauá</div>
+
+
+                 <div class="blocos2"></div>
+                    <div class="texto4"><span><strong>PISCINÃO JABOTICABAL (RM-19)</strong></span></div>
+                    <div class="texto5"><span><strong>São Bernardo do Campo</strong></span></div>
+                    <div class="texto6"> Jaboticabal (RM-19) tem como objetivo <br>controlar inundações e reduzir <br>alagamentos em São Bernardo do <br>Campo, São Caetano do Sul e parte da <br>capital paulista.</div>
+
+                    
+                 <div class="blocos3"></div>
+                    <div class="texto7"><span><strong>CHUVAS FORTES</strong></span></div>
+                    <div class="texto8"><span><strong>São Caetano do Sul</strong></span></div>
+                    <div class="texto9"> Uma forte chuva atingiu a cidade, <br>com ventos de até 85 km/h e 60 mm <br>de precipitação, mais de 10 pontos <br> alagados e 5 árvores derrubadas..</div>
+
+                    <div class="faixa6"></div>
+
+    </section>
+
+    
+    
+    <section>
+        <div class="containerquiz">
+        <div class="quiz-container">
+            <h1>Quiz Segurança na Chuva</h1>
+
+            <div id="quiz">
+                <h2 id="question">Pergunta aqui...</h2>
+                <div id="answers"></div>
+                <button id="next-button" style="display:none;">Próxima</button>
+            </div>
+
+            <div id="result" class="hidden">
+                <h2>Seu resultado:</h2>
+                <p id="score"></p>
+                <button onclick="restartQuiz()">Reiniciar</button>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="mapa"></div>
+        <div class="txtmapa"><strong>MAPA DE ALAGAMENTOS NESTE MOMENTO</strong></div>
+        <div class="txtm">Acompanhe o mapa da sua região que possuí pontos alagados</div>
+        <img class=mapaa src="./img/mapa.png" alt="Mapa de Alagamentos">
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="txtfooter">Feito com carinho por Luana Luo & Sidyellen Souza</div>
+            <a href="https://github.com/Pluvion-tec">GitHub</a>
+            <img class=logogit src="img/logogit.png" alt="logo github">
+            <button onclick="voltarAoTopo()" class="btn-topo" id="btnTopo">↑ Topo</button>
+
+        </div>
+    </footer>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
