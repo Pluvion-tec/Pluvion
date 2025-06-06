@@ -39,7 +39,7 @@ menuBtn.addEventListener('click', () => {
 });
 
 function setTheme(mode) {
-    const containers = document.querySelectorAll('.container, .container2, .container3, .container4, .containerquiz');
+    const containers = document.querySelectorAll('.container, .container2, .container3, .container4, .containerquiz, .mapa');
     const textos = document.querySelectorAll('.titulo, .texto, .paragrafo, .texto-titulo, .texto-sobre-nos, .texto-imagem, .textoslideshow, .textoslideshow2');
 
     const titulo = document.querySelector('.titulo');
