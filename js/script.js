@@ -204,3 +204,29 @@ function restartQuiz() {
 
 loadQuestion();
 nextButton.style.display = "none";
+
+function validateForm() {
+  const username = document.getElementById("username");
+  const password = document.getElementById("password");
+  const usernameError = document.getElementById("usernameError");
+  const passwordError = document.getElementById("passwordError");
+
+  let valid = true;
+
+  if (!username.value.trim()) {
+    usernameError.style.display = "block";
+    valid = false;
+  } else {
+    usernameError.style.display = "none";
+  }
+
+  if (!password.value.trim()) {
+    passwordError.style.display = "block";
+    valid = false;
+  } else {
+    passwordError.style.display = "none";
+  }
+
+  return valid;
+}
+
